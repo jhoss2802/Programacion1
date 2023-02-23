@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+
+int main() {
+	
+	char seguir;
+	int a=0;
+	int b=0;
+	int c=0;
+	cout << "INGRESE UN NUMERO " << endl;
+	cin >> a;
+	b = a*a;
+	c = a*a*a;
+	if (a%2==0) {
+		cout << "EL RESULTADO DEL NUMERO AL CUADRADO ES:" << b << endl;
+		cout << "EL RESULTADO DEL NUMERO AL CUBO ES:" << c << endl;
+	} else {
+		if (a%2==1) {
+			cout << "el resultado numero al cuadradro es:" << b << endl;
+			cout << "el resultado numero al cubo es:" << c << endl;
+		}
+		
+		  printf( "\n\n   %cDESEA CONTINUAR (S/N)?: ", 168 );
+        fflush( stdin );
+        scanf( "%c", &seguir );
+
+    } while ( seguir != 'n' );
+	 
+	return 0;
+}
