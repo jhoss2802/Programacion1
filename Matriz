@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+      int Matriz[2][3],f,c;
+      Matriz[0][0]=1;
+      Matriz[0][1]=2;
+      Matriz[0][2]=3;
+      Matriz[1][0]=4;
+      Matriz[1][1]=5;
+      Matriz[1][2]=6;
+
+for (f=0;f<2;f++){
+	for(c=0;c<3;c++)
+	{
+		cout<<Matriz[f][c]<<" ";
+	}
+cout<<"\n";
+}
+
+
+return 0;
+
+}
